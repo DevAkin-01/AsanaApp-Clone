@@ -59,7 +59,7 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media(max-width: 1024px) {
     .gov_card {
         flex-direction: column;
         text-align: center;

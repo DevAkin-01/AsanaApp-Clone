@@ -78,12 +78,13 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
+@media(max-width: 1024px) {
     .footer_links_grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .footer_cta_section h1 {
-        font-size: 38px;
+    .footer_section h1 {
+        font-size: 25px;
+        align-items: flex-start;
     }
 }
