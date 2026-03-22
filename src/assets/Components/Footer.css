@@ -1,0 +1,89 @@
+.footer_main {
+    width: 100%;
+    color: #fff;
+}
+
+.footer_bg {
+    background-color: #a8256d;
+    padding: 100px 6% ;
+}
+
+.footer_section {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+.footer_section h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.footer_get_started {
+    background-color: #fff;
+    color: #151b26;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer_disclaimer {
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.footer_links_grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 60px;
+}
+
+.footer_logo_box img {
+    width: 25px;
+}
+
+.footer_column h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer_column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_column li {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer_bottom {
+    background-color: #a8256d;
+    padding: 30px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer_apps img {
+    height: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer_links_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer_cta_section h1 {
+        font-size: 38px;
+    }
+}

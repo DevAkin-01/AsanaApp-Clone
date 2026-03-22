@@ -1,0 +1,42 @@
+.integrations_section {
+    width: 100%;
+    padding: 100px 6%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.integrations_content {
+    width: 600px;
+}
+
+.integrations_content h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #151b26;
+    margin-bottom: 24px;
+}
+
+.integrations_content p {
+    font-size: 18px;
+    color: #151b26;
+    margin-bottom: 32px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .integrations_section {
+        padding: 60px 6%;
+    }
+    
+    .integrations_content h1 {
+        font-size: 32px;
+    }
+    
+    .integrations_content br {
+        display: none;
+    }
+}

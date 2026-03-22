@@ -1,0 +1,92 @@
+.setapart_parent_cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 6%;
+    background-color:lightblue
+}
+
+.setapart_title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #151b26;
+    font-family: sans-serif;
+}
+
+.setapart_cards_wrapper {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.setapart_card_wide, .setapart_card_small {
+    background-color: #4557d2;
+    border-radius: 20px;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 520px;
+}
+
+.overlap_card {
+    position: relative;
+    flex: 1.8;
+}
+
+.setapart_card_small {
+    flex: 1;
+}
+
+.card_text_content {
+    max-width: 45%;
+    z-index: 2;
+}
+
+.card_text_content h1, .setapart_card_small h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    /* line-height: 1.2; */
+}
+
+.card_text_content p, .setapart_card_small p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.setapart_overlapping_img {
+    position: absolute;
+    bottom: -30px;
+    top:30px;
+    right: 20px;
+    width: 50%;
+    z-index: 1;
+    
+}
+
+.setapart_overlapping_img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+@media(max-width: 1024px) {
+    .setapart_cards_wrapper {
+        flex-direction: column;
+    }
+
+    .card_text_content {
+        max-width: 100%;
+    }
+
+    .setapart_overlapping_img {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        margin-top: 40px;
+    }
+}
